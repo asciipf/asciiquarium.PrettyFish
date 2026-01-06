@@ -11,6 +11,15 @@
     + It adds, and then modifies, four (unsourced) new fish.
     + It adds (these are original compositions) a turtle, a 'fan fish', and a scuba diver.
     + It triples the incidence of all the 'regular' fish so that the scuba diver and the 'fan fish' don't appear too often.
+
+For full screen viewing, try something like this:
+
+urxvt -fn "xft:DejaVu Sans Mono:pixelsize=50" -geometry 1000x1000 -e /bin/sh -c "asciiquarium.PrettyFish"
+
+    + DejaVu Sans Mono -- or another UTF mono font you like
+    + adjust 'pixelsize' to your taste and for your screen
+    + '-geometry 1000x1000' will expand the terminal
+        as large as possible for your screen
     
 ------------
                               Asciiquarium v1.1
